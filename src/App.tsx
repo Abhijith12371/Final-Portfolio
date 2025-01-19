@@ -3,6 +3,14 @@ import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import axios from "axios"
 
+import accenture_forage from "../public/assets/images/accenture_forage.png"
+import GUVI from "../public/assets/images/GUVI.png"
+import HackerRank from "../public/assets/images/HackerRank.png"
+import IBM_Python from "../public/assets/images/IBM_Python.png"
+import infosys from "../public/assets/images/infosys.png"
+import Linkedin from "../public/assets/images/Linkedin.jpeg"
+import StockMarketDashboard from "../public/assets/images/StockMarketDashboard.png"
+
 
 // import { useInView } from 'react-intersection-observer';
 import {
@@ -54,31 +62,31 @@ const certifications = [
     title: 'Python',
     issuer: 'IBM Congnitive Class',
     date: '2024',
-    image: 'src\\certifications\\IBM_Python.png',
+    image: IBM_Python,
   },
   {
     title: 'Figma Design',
     issuer: 'GUVI Supported By AICTE',
     date: '2024',
-    image: 'src\\certifications\\GUVI.png',
+    image: GUVI,
   },
   {
     title: 'HackerRank Python',
     issuer: 'GUVI Supported By AICTE',
     date: '2024',
-    image: 'src\\certifications\\HackerRank.png',
+    image: HackerRank,
   },
   {
     title: 'Data Analytics',
     issuer: 'GUVI Supported By AICTE',
     date: '2024',
-    image: 'src\\certifications\\accenture_forage.png',
+    image: accenture_forage,
   },
   {
     title: 'Python',
     issuer: 'Infosys',
     date: '2024',
-    image: 'src\\certifications\\infosys.png',
+    image: infosys,
   },
 ];
 
@@ -87,7 +95,7 @@ const projects = [
     title: 'LinkedIn Clone',
     description: 'Full-stack Linkedin Social Media Website',
     tech: ['React', 'Node.js', 'Firebase'],
-    image: 'src\\certifications\\Linkedin.jpeg',
+    image: Linkedin,
     link: 'https://github.com/Abhijith12371/LinkedinClone',
   },
   {
@@ -101,7 +109,7 @@ const projects = [
     title: 'Stock Market Dashboard',
     description: 'StockMarket dashboard for Analysis of Market Trends',
     tech: ['React.js', 'Firebase', 'Express'],
-    image: 'src\\certifications\\StockMarketDashboard.png',
+    image: StockMarketDashboard,
     link: 'https://github.com/Abhijith12371/StockMarketPredictioDashboard',
   },
 ];
